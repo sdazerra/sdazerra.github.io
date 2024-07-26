@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff004c; /* Adjust color as needed */
+}
+
+.announcement {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.description, .thankyou, .sincerely {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+a {
+    color: #ff004c; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
